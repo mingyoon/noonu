@@ -1,0 +1,101 @@
+<div class="wrap">
+    <div class="search-filtering">
+        <div class="search-area row col xl12 l12 m12 s12">
+            <button type="submit" class="search-txt-btn col  offset-m3 offset-xl4 offset-l4">
+            <svg width="23px" height="23px" viewBox="0 0 43 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <title>Oval 3</title>
+                <desc>Created with Sketch.</desc>
+                <defs></defs>
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="Desktop-HD" transform="translate(-926.000000, -71.000000)">
+                        <g id="Oval-3" transform="translate(950.000000, 95.000000) rotate(-315.000000) translate(-950.000000, -95.000000) translate(924.000000, 76.000000)">
+                            <path d="M19,38 C8.50658975,38 0,29.4934102 0,19 C0,8.50658975 8.50658975,0 19,0 C29.4934102,0 38,8.50658975 38,19 C38,29.4934102 29.4934102,38 19,38 Z M19,34 C27.2842712,34 34,27.2842712 34,19 C34,10.7157288 27.2842712,4 19,4 C10.7157288,4 4,10.7157288 4,19 C4,27.2842712 10.7157288,34 19,34 Z" fill-rule="nonzero"></path>
+                            <rect id="Rectangle-4" fill-rule="evenodd" x="36" y="17" width="16" height="4" rx="2"></rect>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+          </button>
+          <input class="search-txt col xl3 l3 m5 s8" type="text" placeholder="폰트명을 검색해보세요">
+          
+        </div>
+    <div class="row col xl12 l12 s12 m12">
+        <div class="filter-section">
+                <div class="filtering col offset-xl2 offset-l3 offset-m3 offset-s1 xl8 l18 m6 s10">
+                    <% @categories.each do |c|%>
+                        <span>
+                          <input checked="checked" class="filled-in" type="checkbox" name="category" id="test<%= c.id %>" value="<%= c.id %>">
+                          <label class="label-font" for="test<%= c.id%>"><%=c.categoryName%></label>
+                        </span>
+                    <% end %>
+                    <!--<a class="filter-none" onclick="history.go(0)">필터초기화</a>-->
+                </div>
+            </div>
+            
+            <div class="filter-btn-sec">
+                
+                <button class="filter-btn" id="search-btn">
+                    <svg class="filter-icon" width="16px" height="23px" viewBox="0 0 45 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                         Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch 
+                        <desc>Created with Sketch.</desc>
+                        <defs></defs>
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="Desktop-HD" transform="translate(-1219.000000, -218.000000)" fill-rule="nonzero">
+                                <path d="M1223.98422,222 L1240.39853,244.181501 L1240.39853,254.268378 L1241.84808,254.268378 L1241.84808,244.181501 L1258.26239,222 L1223.98422,222 Z M1245.84808,245.500559 L1245.84808,258.268378 L1236.39853,258.268378 L1236.39853,245.500559 L1219.58867,222.784529 C1218.6031,221.45268 1218.88381,219.574042 1220.21566,218.588474 C1220.73214,218.20628 1221.35768,218 1222.00019,218 L1260.24642,218 C1261.90327,218 1263.24642,219.343146 1263.24642,221 C1263.24642,221.642512 1263.04014,222.268051 1262.65794,222.784529 L1245.84808,245.500559 Z" id="Combined-Shape-Copy-2"></path>
+                            </g>
+                        </g>
+                    </svg>
+                    <!--검색 class명 변경X-->
+                    <span class="search-filter light">검색</span> 
+    
+                </button>
+                
+            </div>
+            <div class="preloader-middle">
+                <div class="preloader-wrapper small active">
+                    <div class="spinner-layer spinner-green-only">
+                      <div class="circle-clipper left">
+                        <div class="circle"></div>
+                      </div><div class="gap-patch">
+                        <div class="circle"></div>
+                      </div><div class="circle-clipper right">
+                        <div class="circle"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--모든 폰트 placeholder 바뀌게 하는 거-->
+    <div class="placeholder-change row">
+        <input id="all_fonts"class="col offset-m3 offset-s1 offset-xl4 offset-l3 xl4 l6 m6 s10" type="text" placeholder="모든 폰트의 문구를 바꿉니다">
+    </div>
+    
+        <div class="row col xl12 s12 m12">
+        <!-- contents -->
+            <div class="contents">
+                <div class="box-section" id="section">
+                    <% @fontcompanies.each do |fc| %>
+                        <% fc.krfonts.each do |f| %>
+                            <div class="col xl3 l4 s12 m6">
+                                <div class="box" style="<%=f.font_style%>">
+                                    <div class="font-box">
+                                        <a href="/font_page/<%=f.id%>" target="_blank" class="font-name"><%=f.fontName%></a><br>
+                                        <span class="font-br normal"><%=fc.companyName%></span>
+                                        <span class="checked"></span>
+                                        <!--세모(False)면 checked에 fa class추가-->
+                                    </div>
+                                    <div class="text-box">
+                                        <textarea lang="ko" name="editor" id="editor" class="custom-txt" placeholder="<%=f.ph_content%>"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        <% end %>
+                    <% end %>
+                <!-- contents end -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

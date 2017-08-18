@@ -1,0 +1,91 @@
+
+
+<div class="wrap listPage">
+<div class="formWrap newForm">
+<h2 class="signup-title bolder">회원가입</h2>
+
+<%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+  
+
+  <div class="form-inputs">
+    <span class="popuptext c-green" id="popE" style="display:none;">올바른 이메일 형식이 아닙니다!</span>
+    <%= f.email_field :email,:id => "email", autofocus: true, placeholder:'이메일' %>
+    <span class="popuptext c-green" id="popPw" style="display:none; ">6자리 이상이어야 해요!</span>
+    <%= f.password_field :password,:id => "password", placeholder:'비밀번호',autocomplete: "off", hint: ("6자 이상 입력해주세요" if @minimum_password_length) %>
+    <span class="popuptext c-green" id="popCp" style="display:none;">비밀번호가 일치하지 않습니다</span>   
+    <%= f.password_field :password_confirmation,:id => "password_confirmation", placeholder:'비밀번호 확인', required: true %>
+      
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit, "가입하기" %>
+  </div>
+<% end %>
+<br>
+<div class="snsLogin">
+<%= render "devise/shared/links" %>
+</div>
+</div>
+</div>
+
+
+<script>
+    var reapeat;
+    $("#password").focus(function() {
+      
+        reapeat=setInterval(function(){
+          
+            var input =$("#password").val();
+            if(input.length>0 && input.length<6){
+              document.getElementById("popPw").style.display="inline";
+            }else{
+              document.getElementById("popPw").style.display="none";
+            }
+        },100);
+  
+    });
+
+    $("#password").focusout(function(){
+      clearInterval(reapeat);
+      
+    });
+    $("#email").focus(function() {
+      
+        reapeat=setInterval(function(){
+          
+          var input =$("#email").val();
+          var regex=/^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/;   
+  
+          if(regex.test(input) === false && input.length>4) {  
+            
+            document.getElementById("popE").style.display="inline";
+            return false;  
+          } else {  
+            
+            document.getElementById("popE").style.display="none";  
+          }  
+        },100);
+    });
+    $("#email").focusout(function(){
+      clearInterval(reapeat);
+      
+    });
+
+    $("#password_confirmation").focus(function() {
+      
+        reapeat=setInterval(function(){
+            var comp =$("#password").val();
+            var input =$("#password_confirmation").val();
+            if(comp!=input && comp.length >5 &&input.length>1){
+              document.getElementById("popCp").style.display="inline";
+            }else{
+              document.getElementById("popCp").style.display="none";
+            }
+        },100);
+  
+    });
+    $("#password_confirmation").focusout(function(){
+      clearInterval(reapeat);
+      
+    });
+</script>

@@ -1,0 +1,256 @@
+<div class="wrap listPage">
+    
+    <!--모든 폰트 placeholder 바뀌게 하는 거-->
+    <div class="nannaListTitle bolder pickTitle">
+        Noonnu's Pick
+        <br>
+        <span class="titleHashtag">눈누난나 디자이너의 #존중입니다취향해주시죠</span>
+    </div>
+    <div  class="placeholder-change row">
+        <input id="all_fonts" class="col offset-m3 offset-s1 offset-xl4 offset-l3 xl4 l6 m6 s10" type="text" placeholder="모든 폰트의 문구를 바꿉니다">
+    </div>
+        <!--<div class="nannaListTitle"><span class="titleHashtag bolder">돋움체</span></div>-->
+        <div class="row col xl12 s12 m12">
+        <!-- contents -->
+            <div class="contents">
+                <div class="box-section" id="section">
+                    <% @krfonts.each do |f| %>
+                        <div class="col xl3 l4 s12 m6">
+                            <div class="box" style="<%=f.font_style%>">
+                                <div class="font-box">
+                                    <a href="/font_page/<%=f.id %>" target="_blank" class="font-name"><%= f.fontName %></a><br>
+                                    <span class="font-br normal"><%=@fontcompanies.find(f.fontcompany_id).companyName%></span>
+                                    <% range_color =true %>
+                                    <% @ranges.where(fontcompany_id: f.fontcompany_id).each do |fr| %>
+                                        <% range_color &= fr.range %>
+                                    <% end %>
+                                    <%if range_color == false%>
+                                        <span class='checked fa'>
+                                    <% else%>
+                                        <span class='checked'>
+                                    <% end %>
+                                    <!--<span class="checked"></span>-->
+                                    <!--세모(False)면 checked에 fa class추가-->
+                                </div>
+                                <div class="text-box">
+                                    <textarea lang="ko" name="editor" id="editor" class="custom-txt" placeholder="눈누난나의 디자이너가 무척이나 좋아하는 한글폰트입니다."></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    <% end %>
+                    <!--<div class="col xl3 s6 m4">-->
+                    <!--    <div class="box" style="font-family: 'NanumSquare', sans-serif !important;">-->
+                    <!--        <div class="font-box">-->
+                    <!--            <a href="/font_page/21" target="_blank" class="font-name">나눔스퀘어</a><br>-->
+                    <!--            <span class="font-br normal">네이버</span>-->
+                    <!--            <span class="checked"></span>-->
+                                <!--세모(False)면 checked에 fa class추가-->
+                    <!--        </div>-->
+                    <!--        <div class="text-box">-->
+                    <!--            <textarea lang="ko" name="editor" id="editor" class="custom-txt" placeholder="눈누난나의 디자이너가 무척이나 좋아하는 한글폰트입니다."></textarea>-->
+                    <!--        </div>-->
+                    <!--    </div>-->
+                    <!--</div>-->
+                    <!--<div class="col xl3 s6 m4">-->
+                    <!--    <div class="box" style="font-family: 'NanumBarunGothic', sans-serif;">-->
+                    <!--        <div class="font-box">-->
+                    <!--            <a href="/font_page/20" target="_blank" class="font-name">나눔바른고딕</a></a><br>-->
+                    <!--            <span class="font-br normal">네이버</span>-->
+                    <!--            <span class="checked"></span>-->
+                                <!--세모(False)면 checked에 fa class추가-->
+                    <!--        </div>-->
+                    <!--        <div class="text-box">-->
+                    <!--            <textarea lang="ko" name="editor" id="editor" class="custom-txt" placeholder="눈누난나의 디자이너가 무척이나 좋아하는 한글폰트입니다."></textarea>-->
+                    <!--        </div>-->
+                    <!--    </div>-->
+                    <!--</div>-->
+                    <!--<div class="col xl3 s6 m4">-->
+                    <!--    <div class="box" style="font-family: 'WONDotum';">-->
+                    <!--        <div class="font-box">-->
+                    <!--            <a href="/font_page/36" target="_blank" class="font-name">한둥근제목</a></a><br>-->
+                    <!--            <span class="font-br normal">윤디자인</span>-->
+                    <!--            <span class="checked"></span>-->
+                                <!--세모(False)면 checked에 fa class추가-->
+                    <!--        </div>-->
+                    <!--        <div class="text-box">-->
+                    <!--            <textarea lang="ko" name="editor" id="editor" class="custom-txt" placeholder="눈누난나의 디자이너가 무척이나 좋아하는 한글폰트입니다."></textarea>-->
+                    <!--        </div>-->
+                    <!--    </div>-->
+                    <!--</div>-->
+                    <!--<div class="col xl3 s6 m4">-->
+                    <!--    <div class="box" style="font-family: 'Arita-dotum-Light';">-->
+                    <!--        <div class="font-box">-->
+                    <!--            <a href="/font_page/30" target="_blank" class="font-name">아리따돋움</a></a><br>-->
+                    <!--            <span class="font-br normal">아모레퍼시픽</span>-->
+                    <!--            <span class="checked fa"></span>-->
+                                <!--세모(False)면 checked에 fa class추가-->
+                    <!--        </div>-->
+                    <!--        <div class="text-box">-->
+                    <!--            <textarea lang="ko" name="editor" id="editor" class="custom-txt" placeholder="눈누난나의 디자이너가 무척이나 좋아하는 한글폰트입니다."></textarea>-->
+                    <!--        </div>-->
+                    <!--    </div>-->
+                    <!--</div>-->
+                    <!--<div class="col xl3 s6 m4">-->
+                    <!--    <div class="box" style="font-family: 'LotteMartDream', sans-serif;">-->
+                    <!--        <div class="font-box">-->
+                    <!--            <a href="/font_page/2" target="_blank" class="font-name">롯데마트드림체</a></a><br>-->
+                    <!--            <span class="font-br normal">롯데마트</span>-->
+                    <!--            <span class="checked fa"></span>-->
+                                <!--세모(False)면 checked에 fa class추가-->
+                    <!--        </div>-->
+                    <!--        <div class="text-box">-->
+                    <!--            <textarea lang="ko" name="editor" id="editor" class="custom-txt" placeholder="눈누난나의 디자이너가 무척이나 좋아하는 한글폰트입니다."></textarea>-->
+                    <!--        </div>-->
+                    <!--    </div>-->
+                    <!--</div>-->
+                    <!--<div class="col xl3 s6 m4">-->
+                    <!--    <div class="box" style="font-family: 'Godo', sans-serif;">-->
+                    <!--        <div class="font-box">-->
+                    <!--            <a href="/font_page/13" target="_blank" class="font-name">고도체</a></a><br>-->
+                    <!--            <span class="font-br normal">Godo</span>-->
+                    <!--            <span class="checked"></span>-->
+                                <!--세모(False)면 checked에 fa class추가-->
+                    <!--        </div>-->
+                    <!--        <div class="text-box">-->
+                    <!--            <textarea lang="ko" name="editor" id="editor" class="custom-txt" placeholder="눈누난나의 디자이너가 무척이나 좋아하는 한글폰트입니다."></textarea>-->
+                    <!--        </div>-->
+                    <!--    </div>-->
+                    <!--</div>-->
+                    <!--<div class="col xl3 s6 m4">-->
+                    <!--    <div class="box" style="font-family: 'BusanBada';">-->
+                    <!--        <div class="font-box">-->
+                    <!--            <a href="/font_page/54" target="_blank" class="font-name">부산바다체</a></a><br>-->
+                    <!--            <span class="font-br normal">남승우</span>-->
+                    <!--            <span class="checked"></span>-->
+                    <!--        </div>-->
+                    <!--        <div class="text-box">-->
+                    <!--            <textarea lang="ko" name="editor" id="editor" class="custom-txt" placeholder="눈누난나의 디자이너가 무척이나 좋아하는 한글폰트입니다."></textarea>-->
+                    <!--        </div>-->
+                    <!--    </div>-->
+                    <!--</div>-->
+                    <!--<div class="col xl3 s6 m4">-->
+                    <!--    <div class="box" style="font-family: 'GyeonggiTitleM';">-->
+                    <!--        <div class="font-box">-->
+                    <!--            <a href="/font_page/67" target="_blank" class="font-name">경기천년제목</a></a><br>-->
+                    <!--            <span class="font-br normal">경기도청</span>-->
+                    <!--            <span class="checked"></span>-->
+                    <!--        </div>-->
+                    <!--        <div class="text-box">-->
+                    <!--            <textarea lang="ko" name="editor" id="editor" class="custom-txt" placeholder="눈누난나의 디자이너가 무척이나 좋아하는 한글폰트입니다."></textarea>-->
+                    <!--        </div>-->
+                    <!--    </div>-->
+                    <!--</div>-->
+                    <!--<div class="col xl3 s6 m4">-->
+                    <!--    <div class="box" style="font-family: 'TmonMonsori';">-->
+                    <!--        <div class="font-box">-->
+                    <!--            <a href="/font_page/59" target="_blank" class="font-name">몬소리체</a></a><br>-->
+                    <!--            <span class="font-br normal">티몬</span>-->
+                    <!--            <span class="checked"></span>-->
+                    <!--        </div>-->
+                    <!--        <div class="text-box">-->
+                    <!--            <textarea lang="ko" name="editor" id="editor" class="custom-txt" placeholder="눈누난나의 디자이너가 무척이나 좋아하는 한글폰트입니다."></textarea>-->
+                    <!--        </div>-->
+                    <!--    </div>-->
+                    <!--</div>-->
+                    
+                    <!--<div class="col xl3 s6 m4">-->
+                    <!--    <div class="box" style="font-family: 'Youth', sans-serif;">-->
+                    <!--        <div class="font-box">-->
+                    <!--            <a href="/font_page/11" target="_blank" class="font-name">청소년체</a></a><br>-->
+                    <!--            <span class="font-br normal">한국청소년활동진흥원</span>-->
+                    <!--            <span class="checked"></span>-->
+                                <!--세모(False)면 checked에 fa class추가-->
+                    <!--        </div>-->
+                    <!--        <div class="text-box">-->
+                    <!--            <textarea lang="ko" name="editor" id="editor" class="custom-txt" placeholder="눈누난나의 디자이너가 무척이나 좋아하는 한글폰트입니다."></textarea>-->
+                    <!--        </div>-->
+                    <!--    </div>-->
+                    <!--</div>-->
+                    
+                    <!--<div class="col xl3 s6 m4">-->
+                    <!--    <div class="box" style="font-family: 'Nanum Myeongjo', serif;">-->
+                    <!--        <div class="font-box">-->
+                    <!--            <a href="/font_page/17" target="_blank" class="font-name">나눔명조</a></a><br>-->
+                    <!--            <span class="font-br normal">네이버</span>-->
+                    <!--            <span class="checked"></span>-->
+                                <!--세모(False)면 checked에 fa class추가-->
+                    <!--        </div>-->
+                    <!--        <div class="text-box">-->
+                    <!--            <textarea lang="ko" name="editor" id="editor" class="custom-txt" placeholder="눈누난나의 디자이너가 무척이나 좋아하는 한글폰트입니다."></textarea>-->
+                    <!--        </div>-->
+                    <!--    </div>-->
+                    <!--</div>-->
+                    <!--<div class="col xl3 s6 m4">-->
+                    <!--    <div class="box" style="font-family: 'Daehan', serif;">-->
+                    <!--        <div class="font-box">-->
+                    <!--            <a href="/font_page/5" target="_blank" class="font-name">대한체</a></a><br>-->
+                    <!--            <span class="font-br normal">윤디자인</span>-->
+                    <!--            <span class="checked"></span>-->
+                                <!--세모(False)면 checked에 fa class추가-->
+                    <!--        </div>-->
+                    <!--        <div class="text-box">-->
+                    <!--            <textarea lang="ko" name="editor" id="editor" class="custom-txt" placeholder="눈누난나의 디자이너가 무척이나 좋아하는 한글폰트입니다."></textarea>-->
+                    <!--        </div>-->
+                    <!--    </div>-->
+                    <!--</div>-->
+                    <!--<div class="col xl3 s6 m4">-->
+                    <!--    <div class="box" style="font-family: 'WONBatang';">-->
+                    <!--        <div class="font-box">-->
+                    <!--            <a href="/font_page/35" target="_blank" class="font-name">한둥근바탕</a></a><br>-->
+                    <!--            <span class="font-br normal">윤디자인</span>-->
+                    <!--            <span class="checked"></span>-->
+                                <!--세모(False)면 checked에 fa class추가-->
+                    <!--        </div>-->
+                    <!--        <div class="text-box">-->
+                    <!--            <textarea lang="ko" name="editor" id="editor" class="custom-txt" placeholder="눈누난나의 디자이너가 무척이나 좋아하는 한글폰트입니다."></textarea>-->
+                    <!--        </div>-->
+                    <!--    </div>-->
+                    <!--</div>-->
+                    <!--<div class="col xl3 s6 m4">-->
+                    <!--    <div class="box" style="font-family: 'Arita-buri-Light';">-->
+                    <!--        <div class="font-box">-->
+                    <!--            <a href="/font_page/31" target="_blank" class="font-name">아리따부리</a></a><br>-->
+                    <!--            <span class="font-br normal">아모레퍼시픽</span>-->
+                    <!--            <span class="checked fa"></span>-->
+                                <!--세모(False)면 checked에 fa class추가-->
+                    <!--        </div>-->
+                    <!--        <div class="text-box">-->
+                    <!--            <textarea lang="ko" name="editor" id="editor" class="custom-txt" placeholder="눈누난나의 디자이너가 무척이나 좋아하는 한글폰트입니다."></textarea>-->
+                    <!--        </div>-->
+                    <!--    </div>-->
+                    <!--</div>-->
+    
+                    <!--<div class="col xl3 s6 m4">-->
+                    <!--    <div class="box" style="font-family: 'Chosunilbo_myungjo';">-->
+                    <!--        <div class="font-box">-->
+                    <!--            <a href="/font_page/50" target="_blank" class="font-name">조선일보명조</a></a><br>-->
+                    <!--            <span class="font-br normal">조선일보</span>-->
+                    <!--            <span class="checked"></span>-->
+                                <!--세모(False)면 checked에 fa class추가-->
+                    <!--        </div>-->
+                    <!--        <div class="text-box">-->
+                    <!--            <textarea lang="ko" name="editor" id="editor" class="custom-txt" placeholder="눈누난나의 디자이너가 무척이나 좋아하는 한글폰트입니다."></textarea>-->
+                    <!--        </div>-->
+                    <!--    </div>-->
+                    <!--</div>-->
+                    <!--<div class="col xl3 s6 m4">-->
+                    <!--    <div class="box" style="font-family: 'GyeonggiBatang';">-->
+                    <!--        <div class="font-box">-->
+                    <!--            <a href="/font_page/66" target="_blank" class="font-name">경기천년바탕</a></a><br>-->
+                    <!--            <span class="font-br normal">경기도청</span>-->
+                    <!--            <span class="checked"></span>-->
+                                <!--세모(False)면 checked에 fa class추가-->
+                    <!--        </div>-->
+                    <!--        <div class="text-box">-->
+                    <!--            <textarea lang="ko" name="editor" id="editor" class="custom-txt" placeholder="눈누난나의 디자이너가 무척이나 좋아하는 한글폰트입니다."></textarea>-->
+                    <!--        </div>-->
+                    <!--    </div>-->
+                    <!--</div>-->
+                    
+                    
+                    
+                <!-- contents end -->
+                </div>
+            </div>
+        </div>
+</div>

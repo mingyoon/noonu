@@ -1,0 +1,120 @@
+<div class="wrap listPage row">
+    <div class="formWrap">
+    <%= link_to '목록으로', posts_path, class:'c-btn' %>
+<p class="noti" id="notice"><%= notice %></p>
+
+<p class="showTitle bolder">
+  <%= @post.title %>
+</p>
+
+<p><%= image_tag("#{@post.image}", :style=>"width:100%;", :class=>"showImage") %> </p>
+<div class="shBoxWrap">
+    <span class="shBox">
+      <strong class="showSTitle bold">폰트명</strong>
+      <%if !@post.font_name.blank?%>
+      
+          <%= @post.font_name %>
+      <%else%>
+          ?
+      <%end%>
+    </span>
+    <span class="shBox">
+      <strong class="showSTitle bold">해결상태</strong>
+      <%if !@post.status.blank?%>
+          <%= @post.status %>
+      <%else%>
+          못찾음
+      <%end%>
+    </span>
+</div>
+
+<div class="shBoxWrap">
+  <strong class="showSTitle bold">폰트설명</strong>
+  <%= @post.content %>
+</div>
+
+<div class="shBoxWrap">
+  <strong class="showSTitle bold">질문자</strong>
+  <%= @post.user_email %>
+</div>
+<div class="actions">
+<% if can? :update, @post%>
+<%= link_to '수정', edit_post_path(@post), class:'c-btn' %>
+<%end%>
+</div>
+<br>
+
+<p>  
+    <h5 class="showSTitle bolder">댓글</h5>
+<hr>
+<%if !@post.best_comment.blank?%>
+    
+    <span class="cmtTitle bold">찾은 폰트명</span><br>
+    <div class="cmtBest">
+    <% bc=Comment.find(@post.best_comment)%>
+    <span class="cmtEmail bold"><%= bc.user_email%></span>
+    <% if !bc.font_name.blank? %> 
+
+        <span class="cmtFontName"> <%=bc.font_name%> </span>
+    <%end%>
+    <br>
+    <span class="cmtContents"><%=bc.comment%></span>
+    </div>
+<%end%>
+    <% @post.comments.each do |comment| %>
+        <ul>            
+            <%if @post.best_comment!=comment.id%>
+                <%= render partial: "comments/comment_item", locals: { comment: comment, post: @post } %>
+            <%end%>
+            
+        </ul>
+
+
+    <% end %>
+        <ul id="comments">
+            
+        </ul>
+<hr>
+</p>
+<br>
+<h5>댓글 작성</h5>
+
+
+<% if user_signed_in? %>
+    <span>
+      <input type="checkbox" id="checkifknow" />
+      <label class="label-font" for="checkifknow">이 폰트 알아요!</label>
+    </span>
+
+
+    <p>  
+        <%= form_for [@post, @post.comments.new], remote: true do |f| %>
+            <%= f.text_area :font_name ,placeholder: "폰트 이름 입력",:style=>"display:none;", class:'c-textarea cmt-ht' %>
+            <%= f.text_area :comment ,placeholder: " 댓글 입력", class:'c-textarea cmt-ht'%>
+            <%= f.hidden_field :user_email , :value => current_user.email %>
+            <%= f.hidden_field :user_id , :value => current_user.id %>  
+            <div class="actions"><%= f.submit '등록하기', :class => 'c-btn', :method => :get %></div>
+        <% end %>
+    </p>
+<% else %>
+    <p>
+    댓글을 작성하려면 로그인해주세요
+    <span class="c-btn"><%= link_to('Login', new_user_session_path)  %> </span> 
+    </p>
+<% end %>
+    </div>
+</div>
+<script>
+
+    $('input[type=checkbox]').change(
+    function(){
+        if (this.checked) {
+            $('#comment_font_name').css("display","block");
+            
+        }else{
+            $('#comment_font_name').css("display","none");
+        }
+        
+    });
+
+</script>

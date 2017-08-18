@@ -1,0 +1,13 @@
+<div class='col xl3 s6 m4'>
+    <div class='box' style='<%=f.font_style%>'>
+        <div class='font-box'>
+            <a href='/font_page/<%=f.id%>' class='font-name'><%=f.fontName%></a><br>
+            <span class='font-br normal'>ho<%=fc.find(f.fontcompany_id).companyName%></span>
+            <span class='checked'>
+            <svg class='_t8 _5a block' height='23' width='26' viewBox='0 0 16 16' aria-label='' role='img'><title></title><path d='M6.112 14.5L.487 8.526a1.845 1.845 0 0 1 0-2.498c.65-.69 1.703-.69 2.352 0l3.273 3.475 7.049-7.485c.65-.69 1.702-.69 2.352 0 .65.69.65 1.807 0 2.497L6.112 14.5z'></path></svg></span>
+        </div>
+        <div class='text-box'>
+            <textarea lang='ko' name='editor' id='editor' class='custom-txt' placeholder="<%=f.ph_content %>"></textarea>
+        </div>
+    </div>
+</div>

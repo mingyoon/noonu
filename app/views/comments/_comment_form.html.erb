@@ -1,0 +1,7 @@
+<%= form_for comment, remote: true ,:html => {:id => "comment_modify"} do |f| %>
+    <% if !comment.font_name.blank?%>
+        <%= f.text_area :font_name ,placeholder: "폰트 이름 입력"%>
+    <% end %>
+    <%= f.text_area :comment ,placeholder: " 댓글 입력  "%>
+    <%= f.submit %>
+<% end %>

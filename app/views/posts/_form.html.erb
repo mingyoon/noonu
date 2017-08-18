@@ -1,0 +1,34 @@
+<%= form_for(@post) do |f| %>
+  <% if @post.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@post.errors.count, "error") %> prohibited this post from being saved:</h2>
+
+      <ul>
+      <% @post.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+     <!--f.label :title, class: 'c-label'<br>-->
+    <%= f.text_field :title, placeholder: '제목을 입력하세요', class:'c-textfield' %>
+  </div>
+  <div class="field">
+    <%= f.label :폰트설명, class: 'c-label' %><br>
+    <%= f.text_area :content, class: 'c-textarea'%>
+  </div>
+  <div class="field">
+    <%= f.hidden_field :user_id , :value => current_user.id %>
+    <%= f.hidden_field :user_email , :value => current_user.email %>
+  </div>
+  
+  <div class="field">
+    <%= f.label :폰트사진, class:'c-label' %><br>
+    <%= f.file_field :image, class:'tp-mr', accept: 'image/png,image/gif,image/jpeg' %>
+  </div>
+  <div class="actions">
+    <%= f.submit '등록하기', :class => 'c-btn' %>
+  </div>
+<% end %>

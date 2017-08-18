@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  fontcompany_id: 1
+  category_id: 1
+  font_range: false
+
+two:
+  fontcompany_id: 1
+  category_id: 1
+  font_range: false

@@ -1,0 +1,6 @@
+(function($){
+    $("#section").empty();
+    <% @search_key.each do |f|%>
+        $("#section").append("<%=j(render(partial:'home/index_contents', locals: {f:f ,fc:@fontcompanies}))%> ")
+    <% end %>
+})(jQuery)

@@ -1,0 +1,24 @@
+<div class="wrap listPage">
+  <div class="subpage">
+  <h2 class="signup-title bolder">로그인</h2>
+  <span class="line"></span>
+<%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+  <div class="form-inputs">
+    <%= f.input :email, required: false, autofocus: true, input_html: { class: 'signBox' } %>
+    <%= f.input :password, required: false %>
+    <div class="input boolean optional user_remember_me">
+      <input value="0" type="hidden" name="remember_me"><input id="test6" class="boolean optional" type="checkbox" value="1" name="user[remember_me]">
+      <label class="boolean optional checkbox" for="test6">Remember me</label>
+    </div>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit, "로그인" %>
+  </div>
+  <% end %>
+  <br>
+  <div class="snsLogin">
+  <%= render "devise/shared/links" %>
+  </div>
+  </div>
+</div>

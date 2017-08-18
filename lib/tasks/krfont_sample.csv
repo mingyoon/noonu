@@ -1,0 +1,1260 @@
+fontName,fontcompany_id,font_style,font_cdn,d_link,ph_content,content
+스포카 한 산스,1,"font-family: 'Spoqa Han Sans', sans-serif;","@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+<link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+* { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
+",https://spoqa.github.io/spoqa-han-sans/ko-KR/,미니언은 참 귀여운거 같아. 그렇지 않아?,
+롯데마트드림체,2,"font-family: 'LotteMartDream', sans-serif;","@font-face {
+  font-family: 'LotteMartDream';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamMedium.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamMedium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'LotteMartDream';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamBold.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'LotteMartDream';
+  font-style: normal;
+  font-weight: 300;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamLight.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamLight.woff') format('woff');
+}
+
+.lottemartdream * {
+ font-family: 'LotteMartDream', sans-serif;
+}",http://company.lottemart.com/bc/service/htmlView.do?menuCd=BM0307,사람은 살면서 기억에 남는 순간이 있다,
+롯데마트행복체,2,"font-family: 'LotteMartHappy', sans-serif;","@font-face {
+  font-family: 'LotteMartHappy';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'LotteMartHappy';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyBold.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyBold.woff') format('woff');
+}
+
+.lottemarthappy * {
+ font-family: 'LotteMartHappy', sans-serif;
+}",http://company.lottemart.com/bc/service/htmlView.do?menuCd=BM0307,내 밥그릇은 내가 챙겨먹어야 하는거야,
+한겨레결체,3,"font-family: 'Hankc', serif;","@font-face {
+  font-family: 'Hankc';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/hani/Hankc/Hankc.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/hani/Hankc/Hankc.woff') format('woff');
+}
+
+.hankc * {
+ font-family: 'Hankc', serif;
+}
+",http://nuri.hani.co.kr/hanisite/dev/board/listbody.html?h_gcode=board&h_code=91&po_no=11411,삶의 과정은 선택의 연속이다,
+대한체,4,"font-family: 'Daehan', serif;","@font-face {
+  font-family: 'Daehan';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/yoon/Daehan/DaehanR.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/yoon/Daehan/DaehanR.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Daehan';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/yoon/Daehan/DaehanB.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/yoon/Daehan/DaehanB.woff') format('woff');
+}
+
+.daehan * {
+ font-family: 'Daehan', serif;
+}",http://font.co.kr/yoonfont/free/free_daehan.asp,인생 한 번 살지 두 번 살겠니,
+부산체,5,"font-family: 'Busan', sans-serif;","@font-face {
+  font-family: 'Busan';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/busan/Busan/Busan.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/busan/Busan/Busan.woff') format('woff');
+}
+
+.busan * {
+ font-family: 'Busan', sans-serif;
+}",http://www.busan.go.kr/bhbusan,그 사람은 일이 잘 풀릴거라고 말해줬다,
+성동고딕,6,"font-family: 'SungDongGothic', sans-serif;","@font-face {
+  font-family: 'SungDongGothic';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/sdgu/SungDongGothic/SungDongGothicB.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/sdgu/SungDongGothic/SungDongGothicB.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SungDongGothic';
+  font-style: normal;
+  font-weight: 800;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/sdgu/SungDongGothic/SungDongGothicEB.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/sdgu/SungDongGothic/SungDongGothicEB.woff') format('woff');
+}
+
+.sungdonggothic * {
+ font-family: 'SungDongGothic', sans-serif;
+}",http://www.sd.go.kr/sd/main.do?op=mainSub&mCode=13G010030030,이 서비스는 광고와 후원으로 유지됩니다.,
+성동명조,6,"font-family: 'SungDongMyungjo', serif;","@font-face {
+  font-family: 'SungDongMyungjo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/sdgu/SungDongMyungjo/SungDongMyungjoR.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/sdgu/SungDongMyungjo/SungDongMyungjoR.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SungDongMyungjo';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/sdgu/SungDongMyungjo/SungDongMyungjoB.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/sdgu/SungDongMyungjo/SungDongMyungjoB.woff') format('woff');
+}
+
+.sungdongmyungjo * {
+ font-family: 'SungDongMyungjo', serif;
+}
+",http://www.sd.go.kr/sd/main.do?op=mainSub&mCode=13G010030030,상업적으로 이용할 수 있는 폰트가 많았으면 좋겠어,
+바른바탕체,7,"font-family: 'BareunBatang', serif;","@font-face {
+  font-family: 'BareunBatang';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFM.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFM.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'BareunBatang';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFB.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFB.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'BareunBatang';
+  font-style: normal;
+  font-weight: 300;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFL.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFL.woff') format('woff');
+}
+
+.bareunbatang * {
+ font-family: 'BareunBatang', serif;
+}",http://www.print.or.kr/bbs/board.php?bo_table=B52,본 서체의 저작권은 문화체육관광부에 있습니다.,
+바른돋움체,7,"font-family: 'BareunDotum', sans-serif;","@font-face {
+  font-family: 'BareunDotum';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunDotum/BareunDotumOTFPro2.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunDotum/BareunDotumOTFPro2.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'BareunDotum';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunDotum/BareunDotumOTFPro3.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunDotum/BareunDotumOTFPro3.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'BareunDotum';
+  font-style: normal;
+  font-weight: 300;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunDotum/BareunDotumOTFPro1.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunDotum/BareunDotumOTFPro1.woff') format('woff');
+}
+
+.bareundotum * {
+ font-family: 'BareunDotum', sans-serif;
+}",http://www.print.or.kr/bbs/board.php?bo_table=B52,본 서체의 저작권은 문화체육관광부에 있습니다.,
+청소년체,8,"font-family: 'Youth', sans-serif;","@font-face {
+  font-family: 'Youth';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kywa/Youth/Youth.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kywa/Youth/Youth.woff') format('woff');
+}
+
+.youth * {
+ font-family: 'Youth', sans-serif;
+}
+",https://www.kywa.or.kr/about/about08.jsp,같이 여행갈 수 있는 친구가 있다면 성공한 인생,
+KoPub바탕,9,"font-family: 'KoPub Batang', serif;","@import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
+
+.kopubbatang * {
+ font-family: 'KoPub Batang', serif;
+}",http://www.kopus.org/Biz/electronic/Font.aspx,월급은 통장을 스칠뿐 - 스텔라 장,
+고도체,10,"font-family: 'Godo', sans-serif;","@font-face {
+  font-family: 'Godo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Godo';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff') format('woff');
+}
+
+.godo * {
+ font-family: 'Godo', sans-serif;
+}
+",http://www.godo.co.kr/event/godofont.html,인생 별거 있는 줄 아는데 사실은 별거 없어,
+본고딕,11,"font-family: 'Noto Sans KR', sans-serif;","@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * { 
+ font-family: 'Noto Sans KR', sans-serif;
+}",https://typekit.com/fonts/source-han-sans-korean,니편내편이 어딨어 세상 다 혼자 사는거지,
+나눔고딕,12,"font-family: 'Nanum Gothic', sans-serif;","@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.nanumgothic * {
+ font-family: 'Nanum Gothic', sans-serif;
+}",http://hangeul.naver.com/2016/nanum,과제는 역시 술과 함께 밤새면서 하는게 진리지,
+나눔고딕코딩,12,"font-family: 'Nanum Gothic Coding', monospace;","@import url(//fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
+
+.nanumgothiccoding * {
+ font-family: 'Nanum Gothic Coding', monospace;
+}
+",http://hangeul.naver.com/2016/nanum,너가 좋은 사람이 되면 좋은 사람이 올거야,
+나눔명조,12,"font-family: 'Nanum Myeongjo', serif;","@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+
+.nanummyeongjo * {
+ font-family: 'Nanum Myeongjo', serif;
+}",http://hangeul.naver.com/2016/nanum,세상은 원래 미인에게 관대한 법이지,
+나눔손글씨 붓,12,"font-family: 'Nanum Brush Script', cursive;","@import url(//fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+
+.nanumbrushscript * {
+ font-family: 'Nanum Brush Script', cursive;
+}
+",http://hangeul.naver.com/2016/nanum,눈치 안보는 척하는 것도 눈치인 거야,
+나눔손글씨 펜,12,"font-family: 'Nanum Pen Script', cursive; }","@import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+
+.nanumpenscript * {
+ font-family: 'Nanum Pen Script', cursive;
+}",http://hangeul.naver.com/2016/nanum,썸남 같은건 드라마 속에나 존재하는거 아니냐,
+나눔바른고딕,12,"font-family: 'NanumBarunGothic', sans-serif;","@font-face {
+ font-family: 'NanumBarunGothic';
+ font-style: normal;
+ font-weight: 400;
+ src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+ src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+}
+
+@font-face {
+ font-family: 'NanumBarunGothic';
+ font-style: normal;
+ font-weight: 700;
+ src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
+ src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
+}
+
+@font-face {
+ font-family: 'NanumBarunGothic';
+ font-style: normal;
+ font-weight: 300;
+ src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot');
+ src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype');
+}
+
+.nanumbarungothic * {
+ font-family: 'NanumBarunGothic', sans-serif;
+}",http://hangeul.naver.com/2016/nanum,무엇이든지 하려고 하면 돈이 드는 법이다,
+나눔스퀘어,12,"font-family: 'NanumSquare', sans-serif !important;","<link rel=""stylesheet"" type=""text/css"" href=""https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css"">
+.nanumsquare {
+    font-family: 'NanumSquare', sans-serif !important;
+}
+",http://hangeul.naver.com/2016/nanum,사람은 책을 만들고 책은 사람을 만든다,
+제주고딕,13,"font-family: 'Jeju Gothic', sans-serif;","@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+.jejugothic * { 
+ font-family: 'Jeju Gothic', sans-serif;
+}",https://www.jeju.go.kr/jeju/symbol/font/infor.htm,여행을 많이 다니다 보면 알게 될거야,
+제주명조,13,"font-family: 'Jeju Myeongjo', serif;","@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+
+.jejumyeongjo * { 
+ font-family: 'Jeju Myeongjo', serif;
+}
+",https://www.jeju.go.kr/jeju/symbol/font/infor.htm,사람은 왜 태어나고 죽는 건지 알 수 없어,
+제주한라산,13,"font-family: 'Jeju Hallasan', cursive;","@import url(//fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+
+.jejuhallasan * {
+ font-family: 'Jeju Hallasan', cursive;
+}
+",https://www.jeju.go.kr/jeju/symbol/font/infor.htm,아마존 웹 서비스 크레딧은 좋은거야,
+한나체,14,"font-family: 'Hanna', fantasy;","@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+
+.hanna * {
+ font-family: 'Hanna', fantasy;
+}",http://font.woowahan.com/hanna11yrs/,이 페이지에는 우아한형제들의 폰트가 적용되어 있습니다.,
+전라북도체,15,font-family: 'CHONBUKL';,,http://dcomz.com/dcomzbbs/bbs/board.php?bo_table=download#,눈누난나는 디자이너 한명에 개발자 두명,
+김제시체,16,font-family: 'GIMJE-L';,,http://dcomz.com/dcomzbbs/bbs/board.php?bo_table=download#,폰트 저작권 삥뜯기 그만했으면 좋겠다,
+서울남산체,17,font-family: 'SeoulNamsanM';,,http://www.seoul.go.kr/v2012/seoul/symbol/font.html#,스타트업 디자이너분들 모두 힘내세요!,
+서울한강체,17,font-family: 'SeoulHangangM';,,http://www.seoul.go.kr/v2012/seoul/symbol/font.html#,사장님들이 폰트를 좋게 사줬으면 눈누난나가 있었을까요,
+아리따돋움,18,font-family: 'Arita-dotum-Light';,,http://www.apgroup.com/int/ko/about-us/visual-identity/arita-typeface.html,이 제작물은 아모레퍼시픽의 아리따글꼴을 사용하여 디자인 되었습니다.,
+아리따부리,18,font-family: 'Arita-buri-Light';,,http://www.apgroup.com/int/ko/about-us/visual-identity/arita-typeface.html,이 제작물은 아모레퍼시픽의 아리따글꼴을 사용하여 디자인 되었습니다.,
+주아체,15,font-family: 'BMJUA';,,http://font.woowahan.com/jua/,너무 다른 사람들을 의식하면서 살 필요없어,
+연성체,15,font-family: 'BMYEONSUNG';,,http://font.woowahan.com/yeonsung/,가을은 하늘이 높아지고 말과 내가 살찌는 계절이지,
+도현체,15,font-family: 'BMDOHYEON';,,http://font.woowahan.com/dohyeon/,여름 너무 더워..빨리 가을됐으면,
+한둥근바탕,4,font-family: 'WONBatang';,,http://font.co.kr/yoonfont/free/free_won.asp,아무말 대잔치라는게 어디 따로있는게 아냐.,
+한둥근제목,4,font-family: 'WONDotum';,,http://font.co.kr/yoonfont/free/free_won.asp,무료로 배포된 폰트들은 많이 알려져야할 필요가 있어,
+윤고래체,4,font-family: 'YunTaemin'; font-size:120%; line-height:0.85;,,http://font.co.kr/yoonfont/free/free_2015_HandWriting.asp,무료폰트 예쁜거 많다고 하는 사람들 그 폰트 좀 줬으면,
+김남윤체,4,font-family: 'KimNamyun';,,http://font.co.kr/yoonfont/free/free_2015_HandWriting.asp,대표님 폰트 사주세요! 팀장님 폰트 사주세요! 클라이언트님 폰트 사주세요!,
+이숲체,4,font-family: 'LeeHyunJi';,,http://font.co.kr/yoonfont/free/free_2015_HandWriting.asp,개인적으로 이숲체 귀엽고 예쁜 것 같아요. 이숲체 귀여워요,
+Yoon 아혜,4,font-family: 'YoonSAH';,,http://font.co.kr/yoonfont/free/free_calli.asp,손글씨폰트를 어디에 써야 적절할까..다들 어디에 쓰나요?,
+Yoon 다정,4,font-family: 'YoonSDJ';,,http://font.co.kr/yoonfont/free/free_calli.asp,손글씨 폰트 보기엔 귀엽긴한데 어디써야할지 모르겠어요,
+Yoon 형오,4,font-family: 'YoonSHO';,,http://font.co.kr/yoonfont/free/free_calli.asp,노래 엄청 크게 틀어놓고 편안한 소파에 앉아서 맥주 마신다,
+Yoon 흥수,4,font-family: 'YoonSHS';,,http://font.co.kr/yoonfont/free/free_calli.asp,미성년자 어린이들은 음주는 안돼요 흡연도 안돼요,
+Yoon 지희,4,font-family: 'YoonSJH';,,http://font.co.kr/yoonfont/free/free_calli.asp,하늘은 파랗고 바람은 살랑살랑 불면서 꽃비도 내리는데,
+Yoon 지영,4,font-family: 'YoonSJY';,,http://font.co.kr/yoonfont/free/free_calli.asp,벚꽃나무는 경희대가 예쁜데 요즘 사람 많아져서 별로야,
+Yoon 민준,4,font-family: 'YoonSMJ';,,http://font.co.kr/yoonfont/free/free_calli.asp,파티를 열면 꼭 칵테일바랑 블루투스 스피커가 있는 곳에서 할거야,
+Yoon 세희,4,font-family: 'YoonSSH';,,http://font.co.kr/yoonfont/free/free_calli.asp,가족이 생긴다는 건 하나의 책임과 의무가 생긴다는 거야,
+푸른전남체,19,font-family: 'PurenJeonnam';,,http://www.jeonnam.go.kr/contentsView.do?menuId=jeonnam0603080000,간단해보여도 생각보다 많은 노력과 정성이 들어가있어,
+미생체,20,font-family: 'SDMiSaeng';,,http://webtoon.daum.net/event/misaengfont,어떤 서비스를 만들기 시작하게 되는건 필요성을 느껴서 아닐까,
+조선일보명조체,21,font-family: 'Chosunilbo_myungjo';,,http://software.naver.com/software/summary.nhn?softwareId=MFS_109604,세상에 정말 객관적인 사람의 관점은 없어. 다 주관이 들어가지,
+야놀자야체,22,font-family: 'YanoljaYacheR';,,http://cast.yanolja.com/detail/2171,디자이너인데 디자인 참 어렵고 못해요. 디자인 잘하고 싶다,
+이순신체,23,font-family: 'YiSunShinRegular';,,http://www.asan.go.kr/font,이순신 장군님은 거북선을 만들어서 왜구를 물리치셨어요,
+이순신돋움체,23,font-family: 'YiSunShinDotumM';,,http://www.asan.go.kr/font,바다는 출렁이면서 정신을 어지럽게 만들었고 나는 넘어졌다,
+부산바다체,24,font-family: 'BusanBada';,,http://www.busanbadattf.com/,부산에서 바닷바람을 맞으면서 걸어가니 기분이 좋아졌다,
+잉크립퀴드체,25,font-family: 'InkLipquid';,,http://www.thefaceshop.com/event/lipquid/main.jsp#Product,잉크가 터지면서 아름답게 사방으로 튀는 것을 보았다.,
+솔미체,26,font-family: 'GabiaSolmee';,,https://company.gabia.com/font,"""유리는 약해서 큰 충격을 받으면 깨져버리지"" 솔미는 말했다",
+봄바람체,26,font-family: 'GabiaBombaram';,,https://company.gabia.com/font,겨울바람은 봄바람이 오자 자리를 내주며 순순히 물러갔다.,
+납작블럭체,26,font-family: 'NapjakBlock';,,https://company.gabia.com/font,납작하게 생긴 블럭은 납작하지만 밟으니 역시 아팠다.,
+몬소리체,27,font-family: 'TmonMonsori';,,https://brunch.co.kr/@creative/32,나는 대체 너가 몬소리 하는건지 모르겠다 얘.,
+빙그레체,28,font-family: 'Binggrae';,,http://www.bing.co.kr/pr/bing_font.aspx,서울 중구에는 옐로우카페라는 바나나맛우유 카페가 있어요.,
+스웨거체,29,font-family: 'Swagger';,,http://www.swagger.kr/font.html,스웨거가 추구하는 남자의 이미지가 반영된 스웨거체입니다.,
+HS봄바람체,30,font-family: 'HSBombaram';,,http://blog.naver.com/PostView.nhn?blogId=hp0&logNo=220939581383&redirect=Dlog&widgetTypeCall=true,"그날, 봄바람이 불었습니다. 나는 흔들리지 않으려 했어요",
+포천오성과한음체,31,font-family: 'OSeongandHanEum';,,http://www.pocheon.go.kr/www/contents.do?key=5582,오성과 한음은 어린 아이들도 책을 통해서 다 들어본 이름이죠,
+포천막걸리체,31,font-family: 'Makgeolli';,,http://www.pocheon.go.kr/www/contents.do?key=5582,막걸리와 파전은 참 잘어울리는 환상의 궁합이라고 생각해요.,
+동그라미체,32,font-family: 'ThecircleM';,,http://www.thecircle.or.kr/%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8%EC%9E%AC%EB%8B%A8-%EC%84%9C%EC%B2%B4/,동글동글하고 굴러갈 것 같은 그 공은 동그래서 툭 찼다,
+경기천년바탕,33,font-family: 'GyeonggiBatang';,,http://www.gg.go.kr/archives/3735027,디자인도 개발도 다 비슷하게 어려워요. 정반대인 것 같지만,
+경기천년제목,33,font-family: 'GyeonggiTitleM';,,http://www.gg.go.kr/archives/3735027,사람들은 계속 걷고 걸어가다가 어느순간 막히면 혼란해져,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,

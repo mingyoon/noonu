@@ -1,0 +1,10 @@
+(function($){
+    $("#section").empty();
+    <% @select.each do |fc|%>
+        <% @search_key.each do |f| %>
+            <% if fc.id == f.fontcompany_id %>
+                $("#section").append("<%=j(render(partial:'home/checkbox_result', locals: {fc:fc, f:f, fr: @ranges.where(fontcompany_id:fc.id), a: true}))%> ")
+            <% end %>
+        <%end%>
+    <% end %>
+})(jQuery)

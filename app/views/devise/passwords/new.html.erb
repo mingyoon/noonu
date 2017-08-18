@@ -1,0 +1,20 @@
+<div class="wrap listPage nannaListPage">
+  <div class="formWrap newForm">
+    <span class="signup-title bolder">비밀번호찾기</span>
+  
+    <%= simple_form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
+      <%= f.error_notification %>
+    
+      <div class="form-inputs">
+        <%= f.input :email, required: true, autofocus: true %>
+      </div>
+    
+      <div class="form-actions">
+        <%= f.button :submit, "비밀번호 재설정 메일보내기" %>
+      </div>
+    <% end %>
+    <div class="snsLogin">
+    <%= render "devise/shared/links" %>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,4 @@
+(function($){
+
+    $('#comment_modify').replaceWith("<%=j(render(partial:'comments/comment_item',locals: {post:@post,comment:@comment})) %>");
+})(jQuery)

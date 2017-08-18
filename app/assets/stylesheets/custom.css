@@ -1,0 +1,1129 @@
+/*나눔바른고딕*/
+@import url(https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css);
+/*본고딕*/
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+/*스포카 한 산스*/
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+/*한나체*/
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+/*제주고딕*/
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+/*제주명조*/
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+/*제주한라산*/
+@import url(//fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+/*KoPub바탕*/
+@import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
+/*나눔고딕*/
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+/*나눔고딕코딩*/
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
+/*나눔명조*/
+@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+/*나눔손글씨붓*/
+@import url(//fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+/*나눔손글씨펜*/
+@import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+
+/*다음체*/
+@font-face {
+  font-family: 'Daum';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/daum/Daum/Daum-Regular.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/daum/Daum/Daum-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Daum';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/daum/Daum/Daum-SemiBold.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/daum/Daum/Daum-SemiBold.woff') format('woff');
+}
+/*고도체*/
+@font-face {
+  font-family: 'Godo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Godo';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff') format('woff');
+}
+/*한겨레결체*/
+@font-face {
+  font-family: 'Hankc';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/hani/Hankc/Hankc.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/hani/Hankc/Hankc.woff') format('woff');
+}
+/*롯데마트 드림체*/
+@font-face {
+  font-family: 'LotteMartDream';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamMedium.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamMedium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'LotteMartDream';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamBold.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'LotteMartDream';
+  font-style: normal;
+  font-weight: 300;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamLight.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamLight.woff') format('woff');
+}
+/*롯데마트 행복체*/
+@font-face {
+  font-family: 'LotteMartHappy';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'LotteMartHappy';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyBold.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyBold.woff') format('woff');
+}
+/*대한체*/
+@font-face {
+  font-family: 'Daehan';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/yoon/Daehan/DaehanR.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/yoon/Daehan/DaehanR.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Daehan';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/yoon/Daehan/DaehanB.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/yoon/Daehan/DaehanB.woff') format('woff');
+}
+/*부산체*/
+@font-face {
+  font-family: 'Busan';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/busan/Busan/Busan.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/busan/Busan/Busan.woff') format('woff');
+}
+/*성동고딕체*/
+@font-face {
+  font-family: 'SungDongGothic';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/sdgu/SungDongGothic/SungDongGothicB.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/sdgu/SungDongGothic/SungDongGothicB.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SungDongGothic';
+  font-style: normal;
+  font-weight: 800;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/sdgu/SungDongGothic/SungDongGothicEB.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/sdgu/SungDongGothic/SungDongGothicEB.woff') format('woff');
+}
+/*성동명조체*/
+@font-face {
+  font-family: 'SungDongMyungjo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/sdgu/SungDongMyungjo/SungDongMyungjoR.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/sdgu/SungDongMyungjo/SungDongMyungjoR.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SungDongMyungjo';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/sdgu/SungDongMyungjo/SungDongMyungjoB.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/sdgu/SungDongMyungjo/SungDongMyungjoB.woff') format('woff');
+}
+/*청소년체*/
+@font-face {
+  font-family: 'Youth';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kywa/Youth/Youth.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kywa/Youth/Youth.woff') format('woff');
+}
+/*바른바탕체*/
+@font-face {
+  font-family: 'BareunBatang';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFM.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFM.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'BareunBatang';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFB.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFB.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'BareunBatang';
+  font-style: normal;
+  font-weight: 300;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFL.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFL.woff') format('woff');
+}
+/*바른돋움체*/
+@font-face {
+  font-family: 'BareunDotum';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunDotum/BareunDotumOTFPro2.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunDotum/BareunDotumOTFPro2.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'BareunDotum';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunDotum/BareunDotumOTFPro3.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunDotum/BareunDotumOTFPro3.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'BareunDotum';
+  font-style: normal;
+  font-weight: 300;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunDotum/BareunDotumOTFPro1.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunDotum/BareunDotumOTFPro1.woff') format('woff');
+}
+
+input[type="password"]
+{
+  -webkit-text-security: disc;
+  font: large Verdana,sans-serif;
+  color: #00a997;
+}
+
+
+button {
+    background-color:transparent;
+    border:none;
+    padding:0;
+    margin:0;
+}
+button:focus {
+    background-color:transparent !important;
+}
+
+a {
+    color: inherit !important;
+}
+
+/*a:hover {*/
+/*    background-color:transparent;*/
+/*}*/
+input {
+    font-size:1.1em !important;
+}
+
+body {
+    font-family: 'NanumSquare', sans-serif;
+    background-color:#fafafa ;
+}
+.normal		{ font-weight: 400 }
+.bold		{ font-weight: 700 }
+.bolder		{ font-weight: 800 }
+.light		{ font-weight: 300 }
+
+.mobile-menu-section {
+    display:none;
+}
+
+.c-btn {
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: #00A997 !important;
+    box-shadow: none;
+    border: 1px solid #00a997;
+    border-radius: 25px;
+    margin: 10px 0px;
+    height: 40px;
+    line-height: 1.5;
+    transition: 0.3s;
+    padding: 5px 10px;
+}
+
+.c-btn:hover {
+    background-color: #00a997 !important;
+    color: #fff !important;
+}
+
+.wrap {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 0px;
+    z-index:1;
+}
+.row{
+    width: 92%; 
+}
+.header-wrap {
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    z-index: 2;
+}
+.header {
+    box-shadow: 0px 1px 1px #ddd;
+    /*border-bottom: 0.5px solid #aaa;*/
+    position: relative;
+    height: 70px;
+    background-color: rgba(255,255,255,1);
+}
+
+.header .logo {
+    width: 55px;
+    margin: 18px 5%;
+}
+
+.header .logo-sec {
+    display:inline-block;
+    position:absolute;
+    left: 5%;
+}
+
+.header .sub-logo-sec {
+    position:absolute;
+    right: 5%;
+    top:2px;
+    display:inline-block;
+}
+
+.header .menu-section {
+    text-align: center;
+}
+
+.header .menu-section .search-icon {
+   line-height: 90px;
+   vertical-align: middle;
+}
+
+.header .menu-section .search-icon svg {
+    margin: 0px 25px;
+}
+
+.header .search-icon svg g {
+    fill:#aaa;
+}
+
+.header .menu-section .menu-icon {
+    display:inline-block;
+    width:74px;
+}
+
+/*.header .search-icon .menu-icon {*/
+/*    width:25px;*/
+/*}*/
+
+.header .search-icon .menu-icon:hover g {
+    fill: #00a997;
+    transition:0.3s;
+}
+
+/*.hidden-search {*/
+/*    display:inline-block;*/
+/*}*/
+
+.search-filtering {
+    padding-top: 90px;
+}
+
+.search-area {
+    height: 2em;
+    padding-left:40px;
+    display:none;
+    margin-top: -12px;
+    /*margin-left: 8.5% !important;*/
+}
+
+.search-area .search-txt {
+    padding:5px 20px;
+    font-size:1.1em !important;
+    font-family: 'NanumSquare', sans-serif !important;
+    text-indent:10px;
+}
+
+.search-area button {
+    margin-top: 15px;
+    cursor:default;
+}
+.search-area button svg g {
+    fill: #00a997 !important;
+}
+.search-area button:focus {
+    background-color:transparent;
+}
+.search-area button:hover svg g {
+    fill:#00a997;
+}
+.search-area button svg g {
+    fill:#aaa;
+}
+
+.header .btn-search {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.contents {
+    padding: 0px 0px;
+    width: 1200px;
+    margin:0 auto;
+}
+.filter-section {
+    text-align: center;
+    padding: 10px 0px 50px 0px;
+    font-family: 'NanumSquare', sans-serif !important;
+}
+
+.filter-section .filter-none {
+    color: #aaa !important;
+    transition:0.3s;
+    cursor: pointer;
+}
+
+.filter-section .filter-none:hover {
+    color:#00a997 !important;
+}
+.filter-section .filtering .label-font {
+    font-size:1.1em;
+}
+.filter-section .filter-icon {
+    /*margin: -10px 4% 20px 4%;*/
+}
+
+
+.filter-section .filtering {
+    text-align: center;
+}
+
+.filter-section .filtering span {
+    margin: 0px 8px;
+    
+}
+
+.filter-btn-sec {
+    text-align: center;
+    /*margin: 0 auto;*/
+}
+
+.filter-btn-sec .filter-btn {
+    border:1px solid #00a997;
+    border-radius:24px;
+    padding: 7px 14px 4px 14px;
+    transition:0.3s;
+}
+
+.filter-btn-sec .filter-btn:hover {
+    background-color: #00a997;
+}
+
+.filter-btn-sec .filter-btn:hover .search-filter {
+    color: #fff;
+}
+
+.filter-btn-sec .filter-btn:hover .filter-icon g {
+    fill: #fff;
+}
+
+.filter-btn-sec .filter-icon g {
+    fill:#00a997;
+}
+
+.filter-btn-sec .search-filter {
+    line-height: 24px;
+    vertical-align: top;
+    font-size: 1.1em;
+    color:#00a997;
+    margin-left: 1.5px;
+}
+
+.placeholder-change input#all_fonts {
+    font-size:1.1em !important;
+    font-family: 'NanumSquare', sans-serif !important;
+    text-indent:10px;
+}
+
+.box-section {
+    margin:30px 0px;
+}
+.box {
+    width: 100%;
+    /*border-top: 2px solid #aaa;*/
+    /*margin-bottom: 20px;*/
+    height: 290px;
+    margin: 0px auto 20px auto;
+    box-shadow: 0 0 2px rgba(0,0,0,.2);
+    transition: all 150ms ease-in-out;
+    background-color:#fff;
+    border-radius: 3px;
+    padding: 8px;
+}
+.box:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,.2);
+}
+.box .font-box {
+    border-bottom: 1px solid #cecece;
+    padding: 15px;
+    position: relative;
+}
+.box .font-box .font-name {
+    font-size: 1.4em;
+    margin-bottom: 8px;
+    display: inline-block;
+    color: inherit;
+}
+.box .font-box .font-name:hover {
+    color: #00a997;
+    transition: 0.3s;
+}
+.box .font-box .font-br {
+    font-size: 1em;
+}
+.box .font-box .checked {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color:#4cbb9d;
+    border-radius: 100%;
+}
+
+.box .font-box .checked.fa {
+    background-color: #ffd46f;
+}
+
+.box .block {
+    fill:none;
+}
+.box .text-box .custom-txt {
+    font-size: 1.6em;
+    padding:15px;
+    line-height: 1.4;
+    border: none;
+    height: 160px;
+    border-bottom: 0px solid #aaa;
+    resize: none;
+    overflow: hidden;
+}
+
+textarea::-webkit-input-placeholder {
+color: #3d3d3d !important;
+}
+ 
+textarea:-moz-placeholder { /* Firefox 18- */
+color: #3d3d3d !important;  
+}
+ 
+textarea::-moz-placeholder {  /* Firefox 19+ */
+color: #3d3d3d !important;  
+}
+ 
+textarea:-ms-input-placeholder {  
+color: #3d3d3d !important;  
+}
+
+/*------------*/
+
+input::-webkit-input-placeholder {
+color: #aaa !important;
+font-family: 'NanumSquare', sans-serif;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: #aaa !important;  
+font-family: 'NanumSquare', sans-serif;
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #aaa !important;  
+font-family: 'NanumSquare', sans-serif;
+}
+ 
+input:-ms-input-placeholder {  
+color: #aaa !important; 
+font-family: 'NanumSquare', sans-serif;
+}
+
+.box .text-box .custom-txt:focus {
+    outline-offset: inherit;
+    outline: none;
+    border-color: #00a997;
+    transition: 0.5s;
+}
+.box.googlead {
+    font-size: 2em;
+    background-color:#cecece;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+    color: #fff;
+    line-height: 250px;
+    vertical-align: middle;
+}
+.footer {
+    background-color: #3d3d3d;
+    padding: 4% 7.5% 5%;
+    font-family: 'NanumSquare', sans-serif;
+}
+.footer .f-right {
+    float: right;
+    color: #aaa;
+    font-size: 16.5px;
+    line-height: 1.5;
+    text-align: right;
+}
+.footer .f-right .f-link {
+    transition:0.3s;
+    display: inline-block;
+    margin-left: 6px;
+}
+
+.footer .f-right .f-link:hover {
+    color: #00a997 !important;
+}
+
+.footer .f-logo {
+    height: 64px;
+    fill:#fff;
+     filter:opacity(0.7);
+     /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    
+    /* IE 5-7 */
+    filter: alpha(opacity=70);
+    
+    /* Netscape */
+    -moz-opacity: 0.7;
+    
+    /* Safari 1.x */
+    -khtml-opacity: 0.7;
+    
+    /* Good browsers */
+    opacity: 0.7;
+}
+
+
+/*donate.css*/
+
+.intro {
+    font-family: 'NanumSquare', sans-serif;
+    padding: 150px 0px 100px 0px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.intro-title {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.intro-ex {
+    line-height: 1.7;
+}
+
+.intro-subtitle {
+    font-size:1.2em;
+    font-weight: 600;
+}
+.intro-bank {
+    padding: 40px;
+}
+.intro-more {
+    padding: 20px;
+}
+
+.intro-ex a {
+    color: #00a997;
+}
+
+.intro-add {
+    margin-top: 50px;
+}
+
+.intro-ex-add {
+    font-size:16.5px;
+    color: #aaa;
+    line-height: 1.5;
+}
+
+.wrap.listPage {
+    padding-top: 80px;
+    font-family: 'NanumSquare', sans-serif;
+}
+
+/*font-page*/
+
+.font-page {
+    color: #3d3d3d;
+    padding:60px 12%;
+}
+
+.font-title {
+    font-size: 38px;
+}
+
+.company-title {
+    font-size: 19px;
+    margin-left: 23px;
+}
+
+.font-usage {
+    margin: 35px 0px 25px 0px;
+}
+
+.font-usage .usage-title {
+    font-size:22px;
+    margin-right: 5%;
+    margin-left: 5px;
+}
+.font-usage .usage-name {
+    display: inline-block;
+    margin: 0px 1%;
+    font-size: 16.5px;
+}
+
+.c-true {
+    color:#3d3d3d;
+}
+
+.c-false {
+    color: #ff9e00;
+}
+
+.c-red {
+    color: #FF6666;
+}
+
+.c-green{
+    color: #00a997;
+}
+
+.c-bggreen {
+    background-color: #00a997;
+    padding: 3px 5px;
+    color:#fff;
+    line-height: 1.6;
+}
+
+.font-usage-ex {
+    font-size: 16.5px;
+    line-height: 1.5;
+    position: relative;
+}
+
+.font-usage-ex .usage-ex {
+    margin-right: 10px;
+}
+
+/*.font-usage-ex .ex-group {*/
+/*    position: absolute;*/
+/*    right:20px;*/
+/*    display: inline-block;*/
+/*}*/
+
+.font-contents {
+    margin: 40px 0px 20px 0px;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+
+.font-title-sec .download-btn {
+    margin-left: 40px;
+    padding: 8px;
+    transition: 0.3s;
+    border-radius: 50%;
+    display: inline-block;
+}
+.font-title-sec .download-btn:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+
+.font-cdn-sec .cdn-code {
+    font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;
+    position: relative !important;
+    overflow: scroll;
+    margin: 0;
+    padding: 20px;
+    border: none;
+    background-color: #eeeeee;
+    border-radius: 4px;
+    color: #000;
+}
+
+.font-cdn-sec .cdn-code p {
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.font-cdn-sec .cdn-title {
+    font-size:22px;
+    display:inline-block;
+    margin-bottom:15px;
+}
+
+
+
+
+/*로그인페이지*/
+.wrap .subpage .line {
+    border-bottom: 2px solid #3d3d3d;
+    display: inline-block;
+    width: 26px;
+    margin-bottom: 30px;
+}
+.wrap .signup-title {
+    margin: 0rem;
+    line-height: 2.4;
+    font-size: 35px;
+    font-family:'NanumSquare', sans-serif;
+    color: #3d3d3d;
+}
+
+.wrap .subpage {
+    padding:60px 30% 150px;
+}
+
+.wrap .form-inputs .signBox  {
+    line-height: 2.3;
+    
+}
+
+.wrap .form-actions {
+    text-align: center;
+}
+
+.wrap .form-actions .btn {
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: #00A997;
+    box-shadow: none;
+    border: 1px solid #00a997;
+    border-radius: 25px;
+    margin: 10px 0px;
+    height: 40px;
+    line-height: 40px;
+    transition: 0.3s;
+}
+
+.wrap .form-actions .btn:hover {
+    background-color: #00a997;
+    color: #fff;
+}
+
+/*난나 게시판*/
+.wrap.listPage.nannaListPage {
+    padding: 140px 0px 70px;
+}
+
+.wrap.listPage .nannaListTitle {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #3d3d3d;
+}
+
+.wrap.listPage .nannaListTitle .titleHashtag {
+    font-size: 16.5px;
+    color:#868686;
+}
+
+.wrap.listPage .nannaList{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.wrap.listPage .nannaList th {
+    text-align: center;
+    font-size: 16.5px;
+    padding: 10px 5px 15px;
+    color: #aaa;
+}
+
+.wrap.listPage .nannaList th:nth-child(1){
+    width: 200px;
+}
+.wrap.listPage .nannaList th:nth-child(2){
+    width: 400px;
+}
+.wrap.listPage .nannaList th:nth-child(3){
+    width: 200px;
+}
+.wrap.listPage .nannaList th:nth-child(4){
+    width: 150px;
+}
+.wrap.listPage .nannaList th:nth-child(5),th:nth-child(6),th:nth-child(7){
+    width: 50px;
+}
+
+
+.wrap.listPage .nannaList td {
+    text-align: center;
+    font-size: 16.5px;
+}
+
+.wrap.listPage .nannaList .itemTitle a {
+    font-size: 17px;
+}
+
+.wrap.listPage .nannaList td img {
+    height: inherit;
+}
+
+.wrap.listPage .listBottom {
+    text-align: center;
+}
+
+.linkBlue {
+    color:#00a977;
+}
+
+.editDestroyBtn {
+    color:#aaa !important;
+    transition:0.3s;
+}
+
+.editDestroyBtn:hover {
+    color:#00a997 !important;
+}
+
+/*게시글등록 form*/
+.logformWrap {
+    width: 60%;
+}
+.formWrap {
+    width: 50%;
+    margin:50px auto 70px;
+}
+
+.formWrap.newForm {
+    width: 40%;
+}
+
+.snsLogin {
+    text-align: center;
+}
+
+.snsLogin .c-smallBtn {
+    margin: 8px auto;
+    color: transparent !important;
+    background-size: 222px 49px;
+    width: 222px;
+    height: 49px;
+}
+
+.snsLogin .c-smallBtn:nth-child(1) {
+    background-image: url('facebook_login.png');
+    background-size: 222px;
+    height: 40px;
+}
+
+.snsLogin .c-smallBtn:nth-child(2) {
+    background-image: url('naver_login.png');
+}
+
+.snsLogin .c-smallBtn:nth-child(3) {
+    background-image: url('kakao_account_login_btn_medium_narrow.png');
+}
+
+.c-smallBtn {
+    margin-bottom: 10px;
+    display:block;
+    transition: 0.3s;
+}
+
+.c-smallBtn:hover {
+    filter: brightness(85%);
+}
+
+.c-smBtn-sec {
+    margin-bottom:20px;
+}
+
+.c-smBtn {
+    transition: 0.3s;
+}
+
+.c-smBtn:hover {
+    color:#00a997 !important;
+}
+
+.c-btn.c-mt {
+    margin-top:3px;
+    display:inline-block;
+    padding:6px 20px;
+    font-size: 17px;
+}
+
+
+
+.actions {
+    text-align: center;
+}
+
+.field {
+    margin: 10px;
+}
+
+.tp-mr {
+    margin-top: 10px;
+    display:inline-block;
+}
+
+.c-label {
+    font-size: 16.5px;
+    color: #3d3d3d;
+    margin-left: 6px;
+}
+
+.c-textarea {
+    resize: none;
+    height: 100px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    background-color: #fafafa;
+    border: #aaa 1px solid;
+    padding: 10px;
+}
+.c-textarea:focus {
+    outline: -webkit-focus-ring-color none;
+    border: #00a997 1px solid;
+    box-shadow: 0 2px 8px rgba(0,0,0,.2) !important;
+}
+
+.c-textfield {
+    height: 2rem !important;
+    text-indent: 10px;
+}
+
+.c-textfield:focus {
+    border-bottom: 1px solid #00a997 !important;
+}
+
+/*게시글 show*/
+.noti {
+    margin-top: 20px;
+}
+.showTitle {
+    font-size: 30px;
+    margin: 16px 0px;
+    color: #3d3d3d;
+}
+
+.showImage {
+    margin-bottom: 15px;
+}
+
+.shBoxWrap {
+    margin-bottom: 15px;
+}
+
+.shBox {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.showSTitle {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.cmtTitle {
+    display:inline-block;
+    margin: 5px 0px 10px;
+    font-size: 16.5px;
+}
+
+.cmtFontName {
+    color: #fff;
+    background-color: #00a997;
+    padding: 3px 5px;
+}
+
+.cmtBest {
+    font-size: 16.5px;
+    border-bottom: dashed 1px #aaa;
+    border-top: dashed 1px #aaa;
+    padding: 10px 0px;
+    margin: 0px 0px 10px;
+}
+
+.cmtEmail {
+    margin-right: 5px;
+    display:inline-block;
+    font-size: 15px;
+    color:#3d3d3d;
+}
+
+.cmtContents {
+    display: inline-block;
+    margin: 10px 0px 0px;
+}
+
+.c-textarea.cmt-ht {
+    height: 3rem;
+}
+
+.cmtItem {
+    margin: 10px 0px;
+    border-bottom: 1px dashed #cecece;
+    padding-bottom: 10px;
+}
+
+.cmtItem .cmtFont {
+    margin:10px 0px;
+    font-size: 15px;
+}
+
+.cmtItem .cmtContent {
+    margin: 10px 0px;
+}
+
+.cmtItem .btnSmall {
+    color: #00a977;
+}
+
+.cmtItem .cmtEmail {
+    font-size: 15px;
+    color:#3d3d3d;
+}
+
+.label-font {
+    color:#00a997;
+}
+
+.c-gray {
+    color:#3d3d3d;
+}
+
+/*pick*/
+.wrap.listPage .nannaListTitle.pickTitle {
+    margin:50px 0px 30px;
+    font-size: 40px;
+}
+
+.preloader-middle {
+    text-align: center;
+    display:none;
+}
+
+.preloader-middle .preloader-wrapper.small {
+    width: 28px;
+    height: 28px;
+}
+
+.preloader-middle .preloader-wrapper .spinner-layer {
+    border-color: #00a997;
+}
+

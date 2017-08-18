@@ -1,0 +1,7 @@
+(function($){
+    $("#checkifknow").prop('checked', false);
+    $("#comment_comment").val("")
+    $("#comment_font_name").val("")
+    $('#comment_font_name').css("display","none");
+    $("#comments").append("<%=j(render(partial:'comments/comment_item', locals: {post:@post,comment:@comment}))%> ");
+})(jQuery)

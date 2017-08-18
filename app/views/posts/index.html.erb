@@ -1,0 +1,65 @@
+<!--<p id="notice"><%= notice %></p>-->
+
+<!--<h1>Listing Posts</h1>-->
+<div class="wrap listPage nannaListPage">
+<div class="nannaListTitle bolder">
+  폰트를 찾습니다.<br>
+  <span class="titleHashtag">#애타게찾고있어요 #너무궁금함</span>
+</div>
+<table class="nannaList">
+  <thead>
+    <tr>
+      <th>폰트사진</th>
+      <th>제목</th>
+      <th>질문자</th>
+      <th>폰트명</th>
+      <th>상태</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+
+  <tbody>
+    <% @posts.each do |post| %>
+      <tr>
+        <td><%=link_to image_tag("#{post.image}" ,:style=>"width: 200px;"),post %> </td>
+        <td class="itemTitle bold"><%= link_to "#{post.title}", post %></td>
+        <td><%= post.user_email %></td>
+        <% if !post.font_name.blank?%>
+          <td><span class="c-bggreen bold"><%=post.font_name%></span></td>
+        <% else%>
+          <td>?</td>
+        <%end%>
+        <% if post.status.blank?%>
+          <td class="c-red">못찾음</td>
+        <% else%>
+          <td class="c-green"><%= post.status%></td>
+        <%end%>
+        
+        <% if user_signed_in? %>
+          <% if post.user_id == current_user.id%>
+            <td><%= link_to '수정', edit_post_path(post), class:'editDestroyBtn' %></td>
+            <td><%= link_to '삭제', post, method: :delete, data: { confirm: 'Are you sure?' }, class:'editDestroyBtn' %></td>
+          <%end%>
+        <%end%>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+
+<% if user_signed_in? %>
+  <div class="listBottom">
+    <span class="c-btn"><%= link_to '질문하기', new_post_path %></span>
+    <span class="c-btn"><%= link_to('로그아웃', destroy_user_session_path, method: :delete) %></span>     
+  </div>
+<% else %>
+  <div class="listBottom">
+  질문하려면 로그인해주세요
+  <span class="c-btn"><%= link_to('Login', new_user_session_path)  %></span>  
+  </div>
+<% end %>
+
+</div>
