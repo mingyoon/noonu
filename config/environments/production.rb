@@ -2,11 +2,11 @@ Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
+  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
   config.cache_classes = true
-  config.action_mailer.delivery_method = :mailgun
   config.action_mailer.mailgun_settings = {
-  		api_key: '<mailgun api key>',
-  		domain: '<mailgun domain>'
+  		api_key: '<key-706a09b2add0d3a3ce932d5737521b5e>',
+  		domain: '<sandbox2cb7246db0464568aa7b205161583387.mailgun.org>'
   }
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both threaded web servers
