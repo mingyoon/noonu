@@ -1,4 +1,4 @@
-class CreateKrfonts < ActiveRecord::Migration
+class CreateKrfonts < ActiveRecord::Migration[5.0]
   def change
     create_table :krfonts do |t|
       
